@@ -1,0 +1,282 @@
+.navbar>.container, .navbar>.container-fluid{
+  
+    width:85%;
+    height:60px;
+    margin: 0px auto;
+}
+
+.navbar-brand{
+    padding-top: 0px !important;
+}
+
+.nav-item{
+    margin:4px 0px;
+}
+
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
+    align-items: flex-start !important;
+}
+
+.offcanvas.show:not(.hiding), .offcanvas.showing{
+    height: 425px;
+    border-radius: 0px 0px 0px 25px;
+}
+
+.bg-zelena{
+    background-color: green;
+}
+header nav div a img{
+    height: 70px;
+}
+
+header{
+    height:30px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    color:silver;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: rgb(220, 192, 119);
+    transition: 0.5s all ease;
+}
+
+.btn-group-vertical>.btn, .btn-group>.btn{
+    color:silver !important;
+    border:none !important;
+}
+
+.btn-group-vertical>.btn, .btn-group>.btn:hover{
+    color: rgb(220, 192, 119) !important;
+    transition: 0.5s all ease;
+}
+
+.btn-group-vertical>.btn, .btn-group>.btn a{
+    color:silver !important;
+    text-decoration: none;
+}
+
+.btn-group-vertical>.btn, .btn-group>.btn a:hover{
+    color: rgb(220, 192, 119) !important;
+    transition: 0.5s all ease;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    background-color: rgba(20, 20, 20, 0.1);
+    border: 1px solid gold;
+    border-radius: 10px;
+    margin: 0px 5px;
+    color: silver !important;
+}
+
+.aktivni{
+    background-color: rgba(20, 20, 20, 0.1);
+    border: 1px solid gold;
+    border-radius: 10px;
+    margin: 0px 5px;
+    color: silver !important;
+}
+
+.active{
+    background-color: rgba(20, 20, 20, 0.1);
+    border-radius: 10px;
+}
+
+.autorski-držač{
+    height:800px;
+    display: flex;
+    flex-flow: column nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.autor-slika{
+    border: 4px solid white;
+    border-radius: 20px;
+}
+
+.autor-slika img{
+    width:100%;
+    border-radius: 20px;
+}
+
+.autor-tekst{
+    width: 40%;
+    border: 4px solid white;
+    border-radius: 20px;
+    padding: 45px;
+}
+
+.biografija{
+    font-size: 21px;
+}
+
+footer{
+    padding: 15px;
+    background-color: green;
+
+}
+footer .container{
+    width:85%;
+    margin: 0px auto;
+
+}
+footer .container div{
+    margin: 2%;
+    width:  22%;
+    height: 170px;
+}
+
+footer ul{
+	list-style-type:none;
+    margin:0px;
+}
+
+footer ul li{
+	padding:12px;
+}
+
+footer ul li a,p {
+	text-decoration: none;
+    color: darkred;
+    font-size: 15px;
+    margin-bottom: 0px !important;
+}
+
+footer ul li a:hover{
+	color:rgb(220,192,119)
+}
+
+.fa-facebook{
+	color:#4267B2;
+}
+
+.fa-instagram{
+	color:#e03378;
+}
+
+.fa-telegram{
+	color:#229ED9;
+}
+
+.držač-početna{
+    padding:45px 0px;
+    background-image: url(../img/pozadina.jpg);
+}
+
+.sadržajni{
+    height: 350px;
+    margin-top: 45px;
+    flex-direction: row;
+}
+
+.sadržajna-slika{
+    width:40% !important;
+}
+
+.sadržajna-slika img{
+    width:100%
+}
+
+.sadržajni-opis{
+    width:40% !important;
+
+}
+
+#drzac-kontakt{
+    padding:50px;
+    background-color: rgb(158, 206, 130);
+    flex-direction: row;
+    gap: 3%;
+    align-items: center;
+    padding-top: 150px;
+}
+
+aside{
+    width:45%;
+    height:508px;
+}
+
+iframe{
+    width:100%;
+    height:100%;
+}
+
+form{
+    width:45%;
+}
+
+#jelovnik{
+    padding:2%;
+}
+
+.card-title{
+    margin-top:60px;
+    color: var(--bs-card-title-color);
+    border-bottom: 1px solid darkslategray;
+    padding: 5px;
+    width:75%;
+}
+.list-group-item{
+    border-bottom: 1px gray dashed !important;
+}
+
+.list-group-flush{
+    border-radius: 10px;
+    width: 95%;
+}
+
+.list-group-flush>.list-group-item{
+    margin-bottom: -10px;
+    margin-top: 40px;
+    border-bottom: 2px dashed gray !important;
+    padding: 0px;
+}
+
+.list-group-item>p{
+    margin-bottom: 0px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.bg-j{
+    margin-top: 30px;
+    border-radius: 20px;
+    width:53% !important;
+}
+
+.card-title img{
+    height:100px;
+    border-radius: 15px;
+}
+
+#držač-galerija{
+    background-image: url(../img/pozadina.jpg);
+}
+
+.slikovni{
+    background-color: green;
+}
+
+.slikovni-s img{
+    width:48%;
+    margin-top:2%;
+}
+
+.slikovni-s{
+    gap:2%;
+}
+
+.slikovni-s img:hover{
+    transform:scale(1.1);
+	transition:0.4s all ease;
+    border: 3px solid rgb(245, 95, 95);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.karo-pozadina{
+    background-image: url(../img/pozadina.jpg);
+}

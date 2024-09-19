@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Etno Restoran Miahilović</title>
+        <link type="text/css" rel="stylesheet" href="css/style.css">
+        <link type="text/css" rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    </head>
+    <body>
+
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-zelena fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"><img class="rounded" src="img/logo-h.PNG" alt="Logo"/></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Početna</a>
+                </li>
+                <li class="nav-item">
+                  <div class="btn-group">
+                    <button type="button" class="btn"><a href="meni.html">Jelovnik</a></button>
+                    <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                      <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="meni.html#predjela">Predjela</a></li>
+                      <li><a class="dropdown-item" href="meni.html#glavna-jela">Glavna jela</a></li>
+                      <li><a class="dropdown-item" href="meni.html#salate">Salate</a></li>
+                      <li><a class="dropdown-item" href="meni.html#dezerti">Dezerti</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="meni.html#pica">Pića</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="galerija.html">Galerija</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="kontakt.html">Rezervacija</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="autor.html">Autor</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="držač-početna">
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="5000">
+            <img src="img/zastava.jpg" class="d-block w-100" alt="karosel-1">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Етно ресторан Миахиловић</h3>
+              <p class="fs-4">Стотину незаборавних успомена на једном месту</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="img/karosel-2.jpg" class="d-block w-100" alt="karosel-2">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Традиција и Очување</h3>
+              <p class="fs-4">Гајимо и негујемо наше обичаје</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="img/gibanicac.jpg" class="d-block w-100" alt="karosel-3">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Аутентичност</h3>
+              <p class="fs-4">Стотину традиционалних рецепата на располагању</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="container sadržajni bg-success-subtle d-flex justify-content-evenly align-items-center">
+          <div class="container sadržajna-slika">
+            <img class="rounded" src="img/prozori.jpg" alt="test">
+          </div>
+            <div class="container sadržajni-opis fs6">
+
+            <h3>О нама</h3>
+              <br>
+            <p class="text-start fs-5 text-break">Етно ресторан Михаиловић један је од ретких призора свог подручија.<br/>
+              Овај прелепи ресторан саграђен од дрвета и камена нуди вам искуство традиције какво се дуго памти.<br/>
+              Изграђен на ободу шуме,наш ресторан пружа близак сусрет са нетакнутом природом нашег краја.</p>
+          </div>
+      </div>
+
+      <div class="container sadržajni bg-success-subtle d-flex justify-content-evenly align-items-center">
+        <div class="container sadržajni-opis fs6">
+          <p class="text-start fs-5 text-break">У ресторану ће вас љубазно дочекати особље одевени у народној ношњи.<br/>
+            Под нашим кровом се припремају јела чији се рецепти преносе генерацијама се колена на колено.<br/>
+            Међу њима можете наћи више врста печења , погача ,пите ,сушено месо ,сиреве ,кајмак ,проје и штошта још.</p>
+        </div>
+        <div class="container sadržajna-slika">
+          <img class="rounded" src="img/opanak.jpg" alt="test">
+        </div>
+    </div>
+
+    <div class="container sadržajni bg-success-subtle d-flex justify-content-evenly align-items-center">
+      <div class="container sadržajna-slika">
+        <img class="rounded" src="img/porodicna.jpg" alt="test">
+      </div>
+      <div class="container sadržajni-opis fs6">
+        <p class="text-start fs-5 text-break">Наш ресторан погодан је за породичне излете ,па чак и свадбе и испраћаје.<br/>
+        Ми верујемо да се традиција најбоље преноси у окружењу бижњих и зато радимо на очувању наших обичаја.<br/>
+      Свим нововенчаним младим паровима нудимо бесплатно венчање као и прославу дечијег крштења-бесплатно!</p>
+      </div>
+  </div>
+
+    </div>
+
+    <footer class=".bg-light">
+      <div class="container d-flex justify-content-between align-items-center">
+       <div class=".bg-primary bg-success-subtle">
+         <ul>
+           <li>
+             <p>Zdravka Časlava 20</p>
+           </li>
+           <li>
+             <p>Na potezu : Čačak-Gornji Milanovac</p>
+           </li>
+           <li>
+             <p>+381 60-45-20-581</p>
+           </li>
+         </ul>
+       </div>
+       <div class=".bg-primary bg-success-subtle">
+         <ul>
+           <li>
+             <a href="https://telegram.org" target="_blank"><i class="fa-brands fa-telegram"></i>&nbsp;Telegram</a>
+           </li>
+           <li>
+             <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i>&nbsp;Instagam</a>
+           </li>
+           <li>
+             <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i>&nbsp;Facebook</a>
+           </li>
+           
+         </ul>
+       </div>
+       <div class=".bg-primary bg-success-subtle">
+         <ul>
+           <li>
+             <a href="galerija.html">Galerija</a>
+           </li>
+           <li>
+             <a href="kontakt.html">Kontakt</a>
+           </li>
+           
+           <li>
+             <a href="autor.html">O&nbsp;Autoru</a>
+           </li>
+ 
+         </ul>
+       </div>
+       <div class=".bg-primary bg-success-subtle">
+         <ul>
+           <li>
+             <a href="rss.xml"><i class="fa-solid fa-rss"></i>&nbsp;RSS</a>
+           </li>
+           <li>
+             <a href="sitemap.xml"><i class="fa-solid fa-sitemap"></i>&nbsp;Sitemap</a>
+           </li>
+           <li>
+             <p>Sva prava rezervisana</p>
+           </li>
+         </ul>
+       </div>
+      </div>
+
+ </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    </body>
+</html>
